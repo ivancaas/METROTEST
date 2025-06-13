@@ -65,36 +65,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MetroMadridTheme {
-                // A surface container using the 'background' color from the theme
                 MetroApp()
-
             }
-            /*      MonoPolyManagerTheme {
-                      Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                          Greeting(
-                              name = "Android",
-                              modifier = Modifier.padding(innerPadding)
-                          )
-                      }
-                  }*/
         }
     }
 }
-
-// build.gradle.kts (Module: app)
-/*
-dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
-    implementation("androidx.compose.ui:ui:1.5.4")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.5.4")
-    implementation("androidx.compose.material3:material3:1.1.2")
-    implementation("androidx.activity:activity-compose:1.8.0")
-    implementation("androidx.navigation:navigation-compose:2.7.4")
-    implementation("androidx.compose.material:material-icons-extended:1.5.4")
-}
-*/
-
-// Models.kt
 
 @Serializable
 data class MetroData(
