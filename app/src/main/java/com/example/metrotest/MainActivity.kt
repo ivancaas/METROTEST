@@ -1,9 +1,12 @@
 package com.example.metrotest
 
+import android.content.Context
+import android.graphics.ImageDecoder.DecodeException
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -19,9 +22,6 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.layout.FlowRow
-import coil.compose.AsyncImage
-import coil.compose.rememberAsyncImagePainter
-import coil.request.ImageRequest
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -41,6 +41,7 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -49,6 +50,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -312,6 +314,7 @@ fun EstacionesScreen(
 @Composable
 fun EstacionCard(estacion: Estacion) {
     var expanded by remember { mutableStateOf(false) }
+    val hasExpandableContent = estacion.correspondencias.isNotEmpty() || estacion.incidencias_especificas.isNotEmpty()
 
     Card(
         modifier = Modifier.fillMaxWidth(),
@@ -322,11 +325,16 @@ fun EstacionCard(estacion: Estacion) {
         )
     ) {
         Column {
-            // Header - siempre visible
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .clickable { expanded = !expanded }
+                    .then(
+                        if (hasExpandableContent) {
+                            Modifier.clickable { expanded = !expanded }
+                        } else {
+                            Modifier
+                        }
+                    )
                     .padding(16.dp),
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
@@ -342,6 +350,7 @@ fun EstacionCard(estacion: Estacion) {
                             modifier = Modifier.size(20.dp)
                         )
                         Spacer(modifier = Modifier.width(8.dp))
+
                     }
 
                     Text(
@@ -349,16 +358,29 @@ fun EstacionCard(estacion: Estacion) {
                         fontSize = 16.sp,
                         fontWeight = FontWeight.Medium
                     )
+
+                    estacion.incidencias_especificas.map { it.imagen }.forEach {
+                        val (resourceId, description) = getImageDrawableResource(it)
+                        Image(
+                            painter = painterResource(resourceId),
+                            contentDescription = description,
+                            modifier = Modifier
+                                .size(40.dp)
+                                .padding(6.dp)
+                        )
+                    }
                 }
 
-                Icon(
-                    imageVector = if (expanded) Icons.Default.ExpandLess else Icons.Default.ExpandMore,
-                    contentDescription = if (expanded) "Contraer" else "Expandir"
-                )
+                if (hasExpandableContent) {
+                    Icon(
+                        imageVector = if (expanded) Icons.Default.ExpandLess else Icons.Default.ExpandMore,
+                        contentDescription = if (expanded) "Contraer" else "Expandir"
+                    )
+                }
             }
 
             // Contenido expandible
-            if (expanded) {
+            if (expanded && hasExpandableContent) {
                 Column(
                     modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 16.dp)
                 ) {
@@ -377,7 +399,7 @@ fun EstacionCard(estacion: Estacion) {
                             color = Color.Gray,
                             modifier = Modifier.padding(bottom = 4.dp)
                         )
-                        
+
                         // FlowRow para mostrar las imágenes de las correspondencias
                         FlowRow(
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -386,42 +408,17 @@ fun EstacionCard(estacion: Estacion) {
                             modifier = Modifier.padding(bottom = 8.dp)
                         ) {
                             estacion.correspondencias.forEach { svgUrl ->
-                                Card(
-                                    modifier = Modifier.size(40.dp),
-                                    shape = CircleShape,
-                                    colors = CardDefaults.cardColors(
-                                        containerColor = MaterialTheme.colorScheme.surface
-                                    )
-                                ) {
-                                    AsyncImage(
-                                        model = ImageRequest.Builder(LocalContext.current)
-                                            .data(svgUrl)
-                                            .crossfade(true)
-                                            .build(),
-                                        contentDescription = "Correspondencia de línea",
-                                        modifier = Modifier
-                                            .size(40.dp)
-                                            .padding(6.dp)
-                                    )
-                                }
+                                val (resourceId, description) = getImageDrawableResource(svgUrl)
+                                Image(
+                                    painter = painterResource(resourceId),
+                                    contentDescription = description,
+                                    modifier = Modifier
+                                        .size(40.dp)
+                                        .padding(6.dp)
+                                )
                             }
                         }
                     }
-
-                   /* // Incidencias generales
-                    if (estacion.incidencias_generales.isNotBlank()) {
-                        Text(
-                            text = "Incidencias:",
-                            fontWeight = FontWeight.Medium,
-                            fontSize = 14.sp,
-                            color = Color(0xFFD32F2F)
-                        )
-                        Text(
-                            text = estacion.incidencias_generales,
-                            fontSize = 12.sp,
-                            modifier = Modifier.padding(bottom = 8.dp)
-                        )
-                    }*/
 
                     // Incidencias específicas
                     estacion.incidencias_especificas.forEach { incidencia ->
@@ -436,12 +433,23 @@ fun EstacionCard(estacion: Estacion) {
                             Column(
                                 modifier = Modifier.padding(12.dp)
                             ) {
-                                Text(
-                                    text = incidencia.tipo,
-                                    fontWeight = FontWeight.Medium,
-                                    fontSize = 13.sp,
-                                    color = Color(0xFFE65100)
-                                )
+                                Row (verticalAlignment = Alignment.CenterVertically){
+                                    Text(
+                                        text = incidencia.tipo,
+                                        fontWeight = FontWeight.Medium,
+                                        fontSize = 13.sp,
+                                        color = Color(0xFFE65100)
+                                    )
+                                    val (resourceId, description) = getImageDrawableResource(incidencia.imagen)
+                                    Image(
+                                        painter = painterResource(resourceId),
+                                        contentDescription = description,
+                                        modifier = Modifier
+                                            .size(40.dp)
+                                            .padding(6.dp)
+                                    )
+                                }
+
                                 if (incidencia.descripcion.isNotBlank()) {
                                     Text(
                                         text = incidencia.descripcion,
@@ -465,6 +473,46 @@ fun formatLineaName(nombre: String): String {
         nombre.startsWith("ml") -> "Metro Ligero ${nombre.removePrefix("ml").uppercase()}"
         nombre == "ramal" -> "Ramal"
         else -> nombre.replaceFirstChar { it.uppercase() }
+    }
+}
+
+fun getImageDrawableResource(svgUrl: String): Pair<Int, String> {
+    // Extract filename from URL
+    val fileName = svgUrl.substringAfterLast("/").removeSuffix(".svg")
+    
+    return when {
+        fileName.startsWith("linea-") -> {
+            val numero = fileName.removePrefix("linea-")
+            when (numero) {
+                "1" -> Pair(R.drawable.linea_1, "Línea 1")
+                "2" -> Pair(R.drawable.linea_2, "Línea 2")
+                "3" -> Pair(R.drawable.linea_3, "Línea 3")
+                "4" -> Pair(R.drawable.linea_4, "Línea 4")
+                "5" -> Pair(R.drawable.linea_5, "Línea 5")
+                "6" -> Pair(R.drawable.linea_6_circular, "Línea 6 Circular")
+                "7" -> Pair(R.drawable.linea_7, "Línea 7")
+                "8" -> Pair(R.drawable.linea_8, "Línea 8")
+                "9" -> Pair(R.drawable.linea_9, "Línea 9")
+                "10" -> Pair(R.drawable.linea_10, "Línea 10")
+                "11" -> Pair(R.drawable.linea_11, "Línea 11")
+                "12" -> Pair(R.drawable.linea_12_metrosur, "Línea 12 MetroSur")
+                else -> Pair(R.drawable.linea_1, "Línea 1") // Default fallback
+            }
+        }
+        fileName.startsWith("ml") -> {
+            val numero = fileName.removePrefix("ml")
+            when (numero) {
+                "1" -> Pair(R.drawable.ml1, "Metro Ligero 1")
+                "2" -> Pair(R.drawable.ml2, "Metro Ligero 2")
+                "3" -> Pair(R.drawable.ml3, "Metro Ligero 3")
+                else -> Pair(R.drawable.ml1, "Metro Ligero 1") // Default fallback
+            }
+        }
+        fileName == "ramal" -> Pair(R.drawable.ramal, "Ramal")
+        fileName == "escaleras-mecanicas" -> Pair(R.drawable.escaleras_mecanicas, "Escaleras Mecánicas")
+        fileName == "ascensores" -> Pair(R.drawable.ascensores, "Ascensores")
+        fileName == "pasillos-rodantes" -> Pair(R.drawable.pasillos_rodantes, "Pasillos Rodantes")
+        else -> Pair(R.drawable.linea_1, "Línea 1") // Default fallback
     }
 }
 
