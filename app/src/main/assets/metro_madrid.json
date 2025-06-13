@@ -1,0 +1,2969 @@
+{
+  "lineas": [
+    {
+      "nombre": "linea-1",
+      "estaciones": [
+        {
+          "nombre": "Pinar de Chamartín",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén central de Línea 1 dirección Valdecarros y a andén central de Línea 4 dirección Argüelles. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ml1.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén central de Línea 1 dirección Valdecarros y a andén central de Línea 4 dirección Argüelles. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Bambú",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Chamartín",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo a andén de Línea 10 dirección Puerta del Sur y entreplanta\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo a andén de Línea 10 dirección Puerta del Sur y entreplanta\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Plaza de Castilla",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Valdeacederas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Tetuán",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Estrecho",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alvarado",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cuatro Caminos",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 05-07-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 05-07-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Ríos Rosas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Iglesia",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Bilbao",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Tribunal",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Gran Vía",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe pasillo distribuidor de andenes de Línea 5/Renfe  a pasillo distribuidor de andenes de Línea 1\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De pasillo distribuidor de andenes de Línea 5/Renfe  a pasillo distribuidor de andenes de Línea 1\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Sol",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Tirso de Molina",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Antón Martín",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Estación del Arte",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Atocha",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Menéndez Pelayo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pacífico",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén central de Línea 6 a distribuidor de andenes de Línea 6\nFuera de servicio por trabajos de renovación. Fecha prevista de puesta en funcionamiento: 07-07-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén central de Línea 6 a distribuidor de andenes de Línea 6\nFuera de servicio por trabajos de renovación. Fecha prevista de puesta en funcionamiento: 07-07-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Puente de Vallecas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Nueva Numancia",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Portazgo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Buenos Aires",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alto del Arenal",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Miguel Hernández",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Sierra de Guadalupe",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Villa de Vallecas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Congosto",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Gavia",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Las Suertes",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Valdecarros",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "linea-2",
+      "estaciones": [
+        {
+          "nombre": "Las Rosas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Avenida de Guadalajara",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso Avda. de Guadalajara esq. Avda. Canillejas-Vicálvaro a vestíbulo\nFuera de servicio por revisión. Puesta en servicio en las próximas horas.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso Avda. de Guadalajara esq. Avda. Canillejas-Vicálvaro a vestíbulo\nFuera de servicio por revisión. Puesta en servicio en las próximas horas."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Alsacia",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe acceso Avda. de Guadalajara a vestíbulo\nPendiente de recibir información.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De acceso Avda. de Guadalajara a vestíbulo\nPendiente de recibir información."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "La Almudena",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Elipa",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo a distribuidor de andenes y andén dirección Cuatro Caminos\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo a distribuidor de andenes y andén dirección Cuatro Caminos\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Ventas",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Manuel Becerra",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Goya",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso Felipe II esq. Alcalá del vestíbulo Felipe II a andén de Línea 2 dirección Cuatro Caminos. Hay otro ascensor en la misma localización.\nPendiente de recibir información.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso Felipe II esq. Alcalá del vestíbulo Felipe II a andén de Línea 2 dirección Cuatro Caminos. Hay otro ascensor en la misma localización.\nPendiente de recibir información."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Príncipe de Vergara",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Retiro",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Banco de España",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Sevilla",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Sol",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ópera",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ramal.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Santo Domingo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Noviciado",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Bernardo",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Quevedo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Canal",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-7.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cuatro Caminos",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 05-07-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 05-07-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        }
+      ]
+    },
+    {
+      "nombre": "linea-3",
+      "estaciones": [
+        {
+          "nombre": "El Casar",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-12-metrosur.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Villaverde Alto",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Cristóbal",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Villaverde Bajo-Cruce",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso Santa Petronila a vestíbulo\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso Santa Petronila a vestíbulo\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Ciudad de los Ángeles",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Fermín-Orcasur",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso Avda. Perla a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 20-06-2025\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso Avda. Perla a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 20-06-2025"
+            },
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Hospital 12 de Octubre",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Almendrales",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Legazpi",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Delicias",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Palos de la Frontera",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso Palos de la Frontera a vestíbulo\nPendiente de recibir información.\n\n                        \nDe vestíbulo a andén dirección Moncloa\nPendiente de recibir información.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso Palos de la Frontera a vestíbulo\nPendiente de recibir información."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Embajadores",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Lavapiés",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Sol",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Callao",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo Jacometrezo a pasillo distribuidor de andenes de Línea 5 y andén de Línea 5 dirección Alameda de Osuna\nFuera de servicio por revisión. Puesta en servicio en las próximas horas.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo Jacometrezo a pasillo distribuidor de andenes de Línea 5 y andén de Línea 5 dirección Alameda de Osuna\nFuera de servicio por revisión. Puesta en servicio en las próximas horas."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Plaza de España",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo Conde de Toreno a andén de Línea 10 dirección Puerta del Sur\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025\n\n                        \nDe distribuidor de andenes de Línea 10 a andén de Línea 10 dirección Tres Olivos\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 25-06-2025\n\n                        \nDe distribuidor de andenes de Línea 2 a distribuidor de andenes de Línea 10 y vestíbulo Conde de Toreno\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo Conde de Toreno a andén de Línea 10 dirección Puerta del Sur\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Ventura Rodríguez",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Argüelles",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Moncloa",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "linea-4",
+      "estaciones": [
+        {
+          "nombre": "Argüelles",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Bernardo",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Bilbao",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alonso Martínez",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Colón",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Serrano",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Velázquez",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Goya",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso Felipe II esq. Alcalá del vestíbulo Felipe II a andén de Línea 2 dirección Cuatro Caminos. Hay otro ascensor en la misma localización.\nPendiente de recibir información.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso Felipe II esq. Alcalá del vestíbulo Felipe II a andén de Línea 2 dirección Cuatro Caminos. Hay otro ascensor en la misma localización.\nPendiente de recibir información."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Lista",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Diego de León",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Avenida de América",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-7.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Prosperidad",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alfonso XIII",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Avenida de La Paz",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Arturo Soria",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Esperanza",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Canillas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Mar de Cristal",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-8.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Lorenzo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Parque de Santa María",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Hortaleza",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Manoteras",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo a andén dirección Pinar de Chamartín\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo a andén dirección Pinar de Chamartín\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Pinar de Chamartín",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén central de Línea 1 dirección Valdecarros y a andén central de Línea 4 dirección Argüelles. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ml1.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén central de Línea 1 dirección Valdecarros y a andén central de Línea 4 dirección Argüelles. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        }
+      ]
+    },
+    {
+      "nombre": "linea-5",
+      "estaciones": [
+        {
+          "nombre": "Alameda de Osuna",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe distribuidor de andenes a andén dirección Casa de Campo\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De distribuidor de andenes a andén dirección Casa de Campo\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "El Capricho",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Canillejas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Torre Arias",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Suanzes",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ciudad Lineal",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pueblo Nuevo",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-7.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Quintana",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "El Carmen",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén dirección Alameda de Osuna a vestíbulo A. López Casero\nFuera de servicio por trabajos de renovación. Fecha prevista de puesta en funcionamiento: 07-07-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén dirección Alameda de Osuna a vestíbulo A. López Casero\nFuera de servicio por trabajos de renovación. Fecha prevista de puesta en funcionamiento: 07-07-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Ventas",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Diego de León",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Núñez de Balboa",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Rubén Darío",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alonso Martínez",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Chueca",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Gran Vía",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe pasillo distribuidor de andenes de Línea 5/Renfe  a pasillo distribuidor de andenes de Línea 1\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De pasillo distribuidor de andenes de Línea 5/Renfe  a pasillo distribuidor de andenes de Línea 1\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Callao",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo Jacometrezo a pasillo distribuidor de andenes de Línea 5 y andén de Línea 5 dirección Alameda de Osuna\nFuera de servicio por revisión. Puesta en servicio en las próximas horas.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo Jacometrezo a pasillo distribuidor de andenes de Línea 5 y andén de Línea 5 dirección Alameda de Osuna\nFuera de servicio por revisión. Puesta en servicio en las próximas horas."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Ópera",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ramal.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Latina",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Puerta de Toledo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Acacias",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pirámides",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Marqués de Vadillo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Urgel",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Oporto",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Vista Alegre",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Carabanchel",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Eugenia de Montijo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Aluche",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Empalme",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Campamento",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Casa de Campo",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "linea-6-circular",
+      "estaciones": [
+        {
+          "nombre": "Laguna",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Carpetana",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Oporto",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Opañel",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Plaza Elíptica",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nPasillos rodantes\n\n                        \nDe pasillo distribuidor de andenes de Línea 11 a distribuidor de andenes de Línea 6\nPendiente de recibir información.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-11.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Pasillos rodantes",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/pasillos-rodantes.svg",
+              "descripcion": "De pasillo distribuidor de andenes de Línea 11 a distribuidor de andenes de Línea 6\nPendiente de recibir información."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Usera",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Legazpi",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Arganzuela-Planetario",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Méndez Álvaro",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pacífico",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén central de Línea 6 a distribuidor de andenes de Línea 6\nFuera de servicio por trabajos de renovación. Fecha prevista de puesta en funcionamiento: 07-07-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén central de Línea 6 a distribuidor de andenes de Línea 6\nFuera de servicio por trabajos de renovación. Fecha prevista de puesta en funcionamiento: 07-07-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Conde de Casal",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Sainz de Baranda",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo Sainz de Baranda a distribuidor de Línea 6 y Línea 9\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo Sainz de Baranda a distribuidor de Línea 6 y Línea 9\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "O´Donnell",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Manuel Becerra",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Diego de León",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Avenida de América",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-7.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "República Argentina",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén 1 dirección Nuevos Ministerios a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 18-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén 1 dirección Nuevos Ministerios a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 18-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Nuevos Ministerios",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-8.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cuatro Caminos",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 05-07-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a distribuidor de andenes\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 05-07-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Guzmán el Bueno",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe acceso Reina Victoria Hacienda a vestíbulo General Rodrigo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-7.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De acceso Reina Victoria Hacienda a vestíbulo General Rodrigo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Vicente Aleixandre",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ciudad Universitaria",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén 2 dirección Vicente Aleixandre a distribuidor de andenes\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén 2 dirección Vicente Aleixandre a distribuidor de andenes\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Moncloa",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Argüelles",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Príncipe Pío",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ramal.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Puerta del Ángel",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alto de Extremadura",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Lucero",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "linea-7",
+      "estaciones": [
+        {
+          "nombre": "Hospital del Henares",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Henares",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Jarama",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Fernando",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Rambla",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Coslada Central",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Barrio del Puerto",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Estadio Metropolitano",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo a andén Línea 7b Hospital del Henares\nFuera de servicio. Estamos analizando los motivos de la parada.\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén dirección Pitis a distribuidor de andenes\nFuera de servicio. Estamos analizando los motivos de la parada.\n\n                        \nDe andén dirección Pitis a distribuidor de andenes\nFuera de servicio. Estamos analizando los motivos de la parada.\n\n                        \nDe vestíbulo a andén central de Línea 7. Hay otra escalera en el mismo sentido y localización.\nPendiente de recibir información.\n\n                        \nDe vestíbulo a andén central de Línea 7. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo a andén Línea 7b Hospital del Henares\nFuera de servicio. Estamos analizando los motivos de la parada."
+            },
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén dirección Pitis a distribuidor de andenes\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Las Musas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Blas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Simancas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "García Noblejas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ascao",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pueblo Nuevo",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Barrio de la Concepción",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Parque de las Avenidas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cartagena",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Avenida de América",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Gregorio Marañón",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alonso Cano",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Canal",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Islas Filipinas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Guzmán el Bueno",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe acceso Reina Victoria Hacienda a vestíbulo General Rodrigo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De acceso Reina Victoria Hacienda a vestíbulo General Rodrigo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Francos Rodríguez",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Valdezarza",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Antonio Machado",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Peñagrande",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén dirección Pitis\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén dirección Pitis\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Avenida de la Ilustración",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso Islas Cíes a vestíbulo\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 15-07-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso Islas Cíes a vestíbulo\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 15-07-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Lacoma",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Arroyofresno",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pitis",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "linea-8",
+      "estaciones": [
+        {
+          "nombre": "Nuevos Ministerios",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Colombia",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pinar del Rey",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Mar de Cristal",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Feria de Madrid",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Aeropuerto T1-T2-T3",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Barajas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Aeropuerto T-4",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "linea-9",
+      "estaciones": [
+        {
+          "nombre": "Paco de Lucía",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Mirasierra",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Herrera Oria",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Barrio del Pilar",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén dirección Paco de Lucía a distribuidor de andenes de vestíbulo Melchor Fernández Almagro\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén dirección Paco de Lucía a distribuidor de andenes de vestíbulo Melchor Fernández Almagro\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Ventilla",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Plaza de Castilla",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Duque de Pastrana",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pío XII",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Colombia",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-8.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Concha Espina",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe distribuidor de andenes del vestíbulo Plaza de Cataluña a andén dirección Paco de Lucía\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De distribuidor de andenes del vestíbulo Plaza de Cataluña a andén dirección Paco de Lucía\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Cruz del Rayo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Avenida de América",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-7.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De distribuidor de andenes de Línea 9 a acceso Pedro Valdivia, pasillo distribuidor de andén 2 de Línea 6 y andén de Línea 4 dirección Argüelles\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Núñez de Balboa",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Príncipe de Vergara",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ibiza",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Sainz de Baranda",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo Sainz de Baranda a distribuidor de Línea 6 y Línea 9\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo Sainz de Baranda a distribuidor de Línea 6 y Línea 9\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Estrella",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Vinateros",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Artilleros",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pavones",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Valdebernardo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Vicálvaro",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Cipriano",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén dirección Puerta de Arganda\nFuera de servicio. Estamos analizando los motivos de la parada.\n\n                        \nDe vestíbulo a andén dirección Puerta de Arganda\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén dirección Puerta de Arganda\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Puerta de Arganda",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Rivas Urbanizaciones",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo a andén central\nFuera de servicio por revisión. Puesta en servicio en las próximas horas.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo a andén central\nFuera de servicio por revisión. Puesta en servicio en las próximas horas."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Rivas Futura",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso parking de Avda. Aurelio Álvarez a vestíbulo\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso parking de Avda. Aurelio Álvarez a vestíbulo\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Rivas Vaciamadrid",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Poveda",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Arganda del Rey",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "linea-10",
+      "estaciones": [
+        {
+          "nombre": "Hospital Infanta Sofía",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Reyes Católicos",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Baunatal",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Manuel de Falla",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Marqués de la Valdavia",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Moraleja",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Granja",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ronda de la Comunicación",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Las Tablas",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ml1.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Montecarmelo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Tres Olivos",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Fuencarral",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Begoña",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Chamartín",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo a andén de Línea 10 dirección Puerta del Sur y entreplanta\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo a andén de Línea 10 dirección Puerta del Sur y entreplanta\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Plaza de Castilla",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-9.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cuzco",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Santiago Bernabéu",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Nuevos Ministerios",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-8.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Gregorio Marañón",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-7.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alonso Martínez",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Tribunal",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Plaza de España",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo Conde de Toreno a andén de Línea 10 dirección Puerta del Sur\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025\n\n                        \nDe distribuidor de andenes de Línea 10 a andén de Línea 10 dirección Tres Olivos\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 25-06-2025\n\n                        \nDe distribuidor de andenes de Línea 2 a distribuidor de andenes de Línea 10 y vestíbulo Conde de Toreno\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo Conde de Toreno a andén de Línea 10 dirección Puerta del Sur\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Príncipe Pío",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ramal.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Lago",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Batán",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Casa de Campo",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Colonia Jardín",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ml2.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ml3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Aviación Española",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cuatro Vientos",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Joaquín Vilumbrales",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe acceso Avda. de la Libertad impares a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De acceso Avda. de la Libertad impares a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Puerta del Sur",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén 1 de Línea 12 dirección Parque Lisboa a andén de Línea 10 dirección Hospital Infanta Sofía. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio. Estamos analizando los motivos de la parada.\n\n                        \nDe andén de Línea 10 dirección Tres Olivos a andén 2 de Línea 12 dirección San Nicasio. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-12-metrosur.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén 1 de Línea 12 dirección Parque Lisboa a andén de Línea 10 dirección Hospital Infanta Sofía. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        }
+      ]
+    },
+    {
+      "nombre": "linea-11",
+      "estaciones": [
+        {
+          "nombre": "Plaza Elíptica",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nPasillos rodantes\n\n                        \nDe pasillo distribuidor de andenes de Línea 11 a distribuidor de andenes de Línea 6\nPendiente de recibir información.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Pasillos rodantes",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/pasillos-rodantes.svg",
+              "descripcion": "De pasillo distribuidor de andenes de Línea 11 a distribuidor de andenes de Línea 6\nPendiente de recibir información."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Abrantes",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pan Bendito",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Francisco",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén dirección La Fortuna\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén dirección La Fortuna\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Carabanchel Alto",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Peseta",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "La Fortuna",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe acceso San José semiesq. del Carmen a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De acceso San José semiesq. del Carmen a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        }
+      ]
+    },
+    {
+      "nombre": "linea-12-metrosur",
+      "estaciones": [
+        {
+          "nombre": "Puerta del Sur",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe andén 1 de Línea 12 dirección Parque Lisboa a andén de Línea 10 dirección Hospital Infanta Sofía. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio. Estamos analizando los motivos de la parada.\n\n                        \nDe andén de Línea 10 dirección Tres Olivos a andén 2 de Línea 12 dirección San Nicasio. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio. Estamos analizando los motivos de la parada.",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De andén 1 de Línea 12 dirección Parque Lisboa a andén de Línea 10 dirección Hospital Infanta Sofía. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio. Estamos analizando los motivos de la parada."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Parque de Lisboa",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alcorcón Central",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Parque Oeste",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén 2 dirección Alcorcón Central\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén 2 dirección Alcorcón Central\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Universidad Rey Juan Carlos",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Móstoles Central",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pradillo",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nAscensores\n\n                        \nDe vestíbulo a andén 1 dirección Hospital de Móstoles\nPendiente de recibir información.",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Ascensores",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/ascensores.svg",
+              "descripcion": "De vestíbulo a andén 1 dirección Hospital de Móstoles\nPendiente de recibir información."
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Hospital de Móstoles",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Manuela Malasaña",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Loranca",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Hospital de Fuenlabrada",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Parque Europa",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Fuenlabrada Central",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Parque de los Estados",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Arroyo Culebro",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Conservatorio",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Alonso de Mendoza",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Getafe Central",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Juan de la Cierva",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén 1 dirección El Casar\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén 1 dirección El Casar\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "El Casar",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Los Espartales",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "El Bercial",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "El Carrascal",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Julián Besteiro",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Casa del Reloj",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Hospital Severo Ochoa",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe acceso Avda. de Orellana a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025",
+          "correspondencias": [],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De acceso Avda. de Orellana a vestíbulo\nFuera de servicio por trabajos de reparación. Fecha prevista de puesta en funcionamiento: 13-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Leganés Central",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "San Nicasio",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "ramal",
+      "estaciones": [
+        {
+          "nombre": "Ópera",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-2.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-5.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Príncipe Pío",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-6-circular.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "ml1",
+      "estaciones": [
+        {
+          "nombre": "Pinar de Chamartín",
+          "incidencias_generales": "Lamentamos informarle de alteraciones en el funcionamiento de escaleras mecánicas y/o ascensores:\n\n                    \n\n                      \n\n                        \nEscaleras mecánicas\n\n                        \nDe vestíbulo a andén central de Línea 1 dirección Valdecarros y a andén central de Línea 4 dirección Argüelles. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-1.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-4.svg"
+          ],
+          "incidencias_especificas": [
+            {
+              "tipo": "Escaleras mecánicas",
+              "imagen": "https://www.metromadrid.es/themes/custom/buson8/images/icons-serv/escaleras-mecanicas.svg",
+              "descripcion": "De vestíbulo a andén central de Línea 1 dirección Valdecarros y a andén central de Línea 4 dirección Argüelles. Hay otra escalera en el mismo sentido y localización.\nFuera de servicio por trabajos de mejora. Fecha prevista de puesta en funcionamiento: 16-06-2025"
+            }
+          ],
+          "tiene_incidencias": true
+        },
+        {
+          "nombre": "Fuente de la Mora",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Virgen del Cortijo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Antonio Saura",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Álvarez de Villaamil",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Blasco Ibáñez",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "María Tudor",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Palas de Rey",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Las Tablas",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "ml2",
+      "estaciones": [
+        {
+          "nombre": "Colonia Jardín",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ml3.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Prado de la Vega",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Colonia de los Ángeles",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Prado del Rey",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Somosaguas Sur",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Somosaguas Centro",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Pozuelo Oeste",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Bélgica",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Dos Castillas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Campus de Somosaguas",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Avenida de Europa",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Berna",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Estación de Aravaca",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    },
+    {
+      "nombre": "ml3",
+      "estaciones": [
+        {
+          "nombre": "Colonia Jardín",
+          "incidencias_generales": "",
+          "correspondencias": [
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/linea-10.svg",
+            "https://www.metromadrid.es/themes/custom/buson8/images/icons-line/ml2.svg"
+          ],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ciudad de la Imagen",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "José Isbert",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ciudad del Cine",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cocheras",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Retamares",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Montepríncipe",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ventorro del Cano",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Prado del Espino",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Cantabria",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Ferial de Boadilla",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Boadilla Centro",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Nuevo Mundo",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Siglo XXI",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Infante Don Luís",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        },
+        {
+          "nombre": "Puerta de Boadilla",
+          "incidencias_generales": "",
+          "correspondencias": [],
+          "incidencias_especificas": [],
+          "tiene_incidencias": false
+        }
+      ]
+    }
+  ]
+}
