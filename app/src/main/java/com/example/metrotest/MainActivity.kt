@@ -1,7 +1,5 @@
 package com.example.metrotest
 
-import android.content.Context
-import android.graphics.ImageDecoder.DecodeException
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -14,13 +12,11 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -41,7 +37,6 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -59,7 +54,22 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import androidx.compose.material3.Switch
+import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.ui.text.input.TextFieldValue
 import java.io.IOException
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.expandIn
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkOut
+import androidx.compose.animation.shrinkVertically
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -277,6 +287,19 @@ fun EstacionesScreen(
     linea: Linea,
     onBackClick: () -> Unit
 ) {
+    var searchQuery by remember { mutableStateOf(TextFieldValue("")) }
+    var showOnlyIncidencias by remember { mutableStateOf(false) }
+
+    val filteredEstaciones = remember(searchQuery.text, showOnlyIncidencias) {
+        derivedStateOf {
+            linea.estaciones.filter { estacion ->
+                val matchesSearch = estacion.nombre.contains(searchQuery.text, ignoreCase = true)
+                val matchesFilter = !showOnlyIncidencias || estacion.tiene_incidencias
+                matchesSearch && matchesFilter
+            }
+        }
+    }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -297,27 +320,69 @@ fun EstacionesScreen(
             )
         }
     ) { paddingValues ->
-        LazyColumn(
+        Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
-                .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            items(linea.estaciones) { estacion ->
-                EstacionCard(estacion = estacion)
+            // Search and Filter Section
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp)
+            ) {
+                TextField(
+                    value = searchQuery,
+                    onValueChange = { searchQuery = it },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 8.dp),
+                    placeholder = { Text("Buscar estación...") },
+                    singleLine = true,
+                    colors = TextFieldDefaults.colors(
+                        focusedContainerColor = MaterialTheme.colorScheme.surface,
+                        unfocusedContainerColor = MaterialTheme.colorScheme.surface
+                    )
+                )
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = "Mostrar solo estaciones con incidencias",
+                        fontSize = 14.sp
+                    )
+                    Switch(
+                        checked = showOnlyIncidencias,
+                        onCheckedChange = { showOnlyIncidencias = it }
+                    )
+                }
+            }
+
+            // Stations List
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                items(filteredEstaciones.value) { estacion ->
+                    EstacionCard(estacion = estacion,modifier = Modifier.animateItem())
+                }
             }
         }
     }
 }
 
 @Composable
-fun EstacionCard(estacion: Estacion) {
+fun EstacionCard(estacion: Estacion, modifier: Modifier) {
     var expanded by remember { mutableStateOf(false) }
     val hasExpandableContent = estacion.correspondencias.isNotEmpty() || estacion.incidencias_especificas.isNotEmpty()
 
     Card(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = modifier.fillMaxWidth(),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         colors = CardDefaults.cardColors(
             containerColor = if (estacion.tiene_incidencias)
@@ -350,7 +415,6 @@ fun EstacionCard(estacion: Estacion) {
                             modifier = Modifier.size(20.dp)
                         )
                         Spacer(modifier = Modifier.width(8.dp))
-
                     }
 
                     Text(
@@ -359,15 +423,24 @@ fun EstacionCard(estacion: Estacion) {
                         fontWeight = FontWeight.Medium
                     )
 
-                    estacion.incidencias_especificas.map { it.imagen }.forEach {
-                        val (resourceId, description) = getImageDrawableResource(it)
-                        Image(
-                            painter = painterResource(resourceId),
-                            contentDescription = description,
-                            modifier = Modifier
-                                .size(40.dp)
-                                .padding(6.dp)
-                        )
+                    AnimatedVisibility(
+                        visible = !expanded,
+                        enter = expandIn(expandFrom = Alignment.Center),
+                        exit = shrinkOut(shrinkTowards = Alignment.Center)
+                    ) {
+                   // if (!expanded) {
+                        Row {
+                            estacion.incidencias_especificas.map { it.imagen }.forEach {
+                                val (resourceId, description) = getImageDrawableResource(it)
+                                Image(
+                                    painter = painterResource(resourceId),
+                                    contentDescription = description,
+                                    modifier = Modifier
+                                        .size(40.dp)
+                                        .padding(6.dp)
+                                )
+                            }
+                        }
                     }
                 }
 
@@ -379,8 +452,15 @@ fun EstacionCard(estacion: Estacion) {
                 }
             }
 
-            // Contenido expandible
-            if (expanded && hasExpandableContent) {
+            AnimatedVisibility(
+                visible = expanded && hasExpandableContent,
+                enter = fadeIn(animationSpec = tween(300)) + expandVertically(
+                    animationSpec = tween(300)
+                ),
+                exit = fadeOut(animationSpec = tween(300)) + shrinkVertically(
+                    animationSpec = tween(300)
+                )
+            ) {
                 Column(
                     modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 16.dp)
                 ) {
@@ -400,7 +480,6 @@ fun EstacionCard(estacion: Estacion) {
                             modifier = Modifier.padding(bottom = 4.dp)
                         )
 
-                        // FlowRow para mostrar las imágenes de las correspondencias
                         FlowRow(
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
                             verticalArrangement = Arrangement.spacedBy(8.dp),
@@ -433,7 +512,7 @@ fun EstacionCard(estacion: Estacion) {
                             Column(
                                 modifier = Modifier.padding(12.dp)
                             ) {
-                                Row (verticalAlignment = Alignment.CenterVertically){
+                                Row(verticalAlignment = Alignment.CenterVertically) {
                                     Text(
                                         text = incidencia.tipo,
                                         fontWeight = FontWeight.Medium,
