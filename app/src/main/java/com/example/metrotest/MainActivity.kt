@@ -57,6 +57,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -71,6 +72,7 @@ import androidx.navigation.compose.rememberNavController
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.derivedStateOf
@@ -530,104 +532,146 @@ fun EstacionesScreen(
 
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { 
-                    Text(
-                        text = formatLineaName(linea.nombre),
-                        fontWeight = FontWeight.Bold
-                    ) 
-                },
-                navigationIcon = {
-                    IconButton(onClick = onBackClick) {
-                        Icon(
-                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                            contentDescription = "Volver",
-                            tint = Color.White
-                        )
+            // Custom TopBar con diseño mejorado para vista de estación
+            val topBarShape = RoundedCornerShape(
+                topStart = 0.dp,
+                topEnd = 0.dp,
+                bottomStart = 24.dp,
+                bottomEnd = 24.dp
+            )
+
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(topBarShape)
+                    .background(colorLinea)
+                    .statusBarsPadding()
+            ) {
+                // Header con botón de volver, título/subtítulo alineados, e info
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 4.dp, end = 16.dp, top = 8.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Row(
+                        modifier = Modifier.weight(1f),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        IconButton(onClick = onBackClick) {
+                            Icon(
+                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                                contentDescription = "Volver",
+                                tint = Color.White,
+                                modifier = Modifier.size(28.dp)
+                            )
+                        }
+
+                        Column(
+                            modifier = Modifier.padding(start = 4.dp)
+                        ) {
+                            Text(
+                                text = "ESTACIONES",
+                                color = Color.White.copy(alpha = 0.85f),
+                                fontSize = 12.sp,
+                                fontWeight = FontWeight.Normal,
+                                letterSpacing = 0.5.sp
+                            )
+                            Text(
+                                text = formatLineaName(linea.nombre),
+                                color = Color.White,
+                                fontSize = 22.sp,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
                     }
-                },
-                actions = {
+                    
                     IconButton(onClick = { /* Info */ }) {
                         Icon(
                             imageVector = Icons.Default.Info,
                             contentDescription = "Información",
-                            tint = Color.White
+                            tint = Color.White,
+                            modifier = Modifier.size(24.dp)
                         )
                     }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = colorLinea,
-                    titleContentColor = Color.White
-                )
-            )
+                }
+
+                // Search and Filter Section (integrado en topBar para extender el color hasta aquí)
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 16.dp, end = 16.dp, top = 12.dp, bottom = 16.dp)
+                ) {
+                    TextField(
+                        value = searchQuery,
+                        onValueChange = { searchQuery = it },
+                        modifier = Modifier.fillMaxWidth(),
+                        placeholder = {
+                            Text(
+                                text = "Buscar estación...",
+                                color = Color.White.copy(alpha = 0.75f)
+                            )
+                        },
+                        leadingIcon = {
+                            Icon(
+                                imageVector = Icons.Default.Search,
+                                contentDescription = "Buscar",
+                                tint = Color.White.copy(alpha = 0.9f)
+                            )
+                        },
+                        singleLine = true,
+                        shape = RoundedCornerShape(12.dp),
+                        colors = TextFieldDefaults.colors(
+                            focusedContainerColor = Color.White.copy(alpha = 0.18f),
+                            unfocusedContainerColor = Color.White.copy(alpha = 0.18f),
+                            focusedIndicatorColor = Color.Transparent,
+                            unfocusedIndicatorColor = Color.Transparent,
+                            focusedTextColor = Color.White,
+                            unfocusedTextColor = Color.White,
+                            cursorColor = Color.White
+                        )
+                    )
+
+                    Spacer(modifier = Modifier.height(12.dp))
+
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            text = "Mostrar solo estaciones con incidencias",
+                            fontSize = 14.sp,
+                            color = Color.White.copy(alpha = 0.92f)
+                        )
+                        Switch(
+                            checked = showOnlyIncidencias,
+                            onCheckedChange = { showOnlyIncidencias = it },
+                            colors = SwitchDefaults.colors(
+                                checkedThumbColor = Color.White,
+                                checkedTrackColor = Color.White.copy(alpha = 0.35f),
+                                uncheckedThumbColor = Color.White,
+                                uncheckedTrackColor = Color.White.copy(alpha = 0.25f),
+                                checkedBorderColor = Color.Transparent,
+                                uncheckedBorderColor = Color.Transparent
+                            )
+                        )
+                    }
+                }
+            }
         }
     ) { paddingValues ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .background(Color(0xFFF5F5F5))
+                .padding(top = paddingValues.calculateTopPadding())
         ) {
-            // Search and Filter Section
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .background(Color.White)
-                    .padding(top = paddingValues.calculateTopPadding())
-                    .padding(16.dp)
-            ) {
-                // Search field con icono
-                TextField(
-                    value = searchQuery,
-                    onValueChange = { searchQuery = it },
-                    modifier = Modifier
-                        .fillMaxWidth(),
-                    placeholder = { 
-                        Text(
-                            text = "Buscar estación...",
-                            color = Color.Gray
-                        ) 
-                    },
-                    leadingIcon = {
-                        Icon(
-                            imageVector = Icons.Default.Search,
-                            contentDescription = "Buscar",
-                            tint = Color.Gray
-                        )
-                    },
-                    singleLine = true,
-                    shape = RoundedCornerShape(12.dp),
-                    colors = TextFieldDefaults.colors(
-                        focusedContainerColor = Color(0xFFF5F5F5),
-                        unfocusedContainerColor = Color(0xFFF5F5F5),
-                        focusedIndicatorColor = Color.Transparent,
-                        unfocusedIndicatorColor = Color.Transparent
-                    )
-                )
-
-                Spacer(modifier = Modifier.height(16.dp))
-
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Text(
-                        text = "Mostrar solo estaciones con incidencias",
-                        fontSize = 14.sp,
-                        color = Color(0xFF333333)
-                    )
-                    Switch(
-                        checked = showOnlyIncidencias,
-                        onCheckedChange = { showOnlyIncidencias = it }
-                    )
-                }
-            }
-
             // Stations List con línea vertical
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(top = 16.dp)
             ) {
                 // Línea vertical de la línea de metro
                 Box(
@@ -641,6 +685,7 @@ fun EstacionesScreen(
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
                     contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                        top = 16.dp,
                         bottom = paddingValues.calculateBottomPadding()
                     ),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
