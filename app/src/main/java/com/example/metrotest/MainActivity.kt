@@ -9,6 +9,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -35,6 +36,7 @@ import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Train
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -88,6 +90,9 @@ import androidx.compose.animation.shrinkOut
 import androidx.compose.animation.shrinkVertically
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
+import androidx.compose.foundation.layout.fillMaxHeight
+import app.lexilabs.basic.ads.BasicAds
+import app.lexilabs.basic.ads.DependsOnGoogleMobileAds
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -140,9 +145,11 @@ fun MetroMadridTheme(content: @Composable () -> Unit) {
     )
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, DependsOnGoogleMobileAds::class)
 @Composable
 fun MetroApp() {
+    BasicAds.Initialize()
+    
     val navController = rememberNavController()
     val context = LocalContext.current
     var selectedTab by remember { mutableStateOf(0) }
@@ -350,21 +357,34 @@ fun LineaCard(
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp),
+                .height(IntrinsicSize.Min),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
+            // Barra de color al inicio de la card (como en diseño)
+            Box(
+                modifier = Modifier
+                    .fillMaxHeight()
+                    .width(10.dp)
+                    .background(
+                        color = colorLinea,
+                        shape = RoundedCornerShape(topStart = 16.dp, bottomStart = 16.dp)
+                    )
+            )
+
             Row(
                 verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier.weight(1f)
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(16.dp)
             ) {
                 // Icono de la línea
                 Box(
                     modifier = Modifier
-                        .size(64.dp)
+                        .size(46.dp)
                         .background(
                             color = colorLinea,
-                            shape = RoundedCornerShape(12.dp)
+                            shape = RoundedCornerShape(10.dp)
                         ),
                     contentAlignment = Alignment.Center
                 ) {
@@ -405,12 +425,6 @@ fun LineaCard(
                         // Badge de estado con background tipo cápsula
                         if (estacionesConIncidencias > 0) {
                             Row(
-                                modifier = Modifier
-                                    .background(
-                                        color = Color(0xFFD32F2F).copy(alpha = 0.1f),
-                                        shape = RoundedCornerShape(12.dp)
-                                    )
-                                    .padding(horizontal = 8.dp, vertical = 4.dp),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
                                 Icon(
@@ -429,12 +443,6 @@ fun LineaCard(
                             }
                         } else {
                             Row(
-                                modifier = Modifier
-                                    .background(
-                                        color = Color(0xFF4CAF50).copy(alpha = 0.1f),
-                                        shape = RoundedCornerShape(12.dp)
-                                    )
-                                    .padding(horizontal = 8.dp, vertical = 4.dp),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
                                 Icon(
@@ -454,9 +462,16 @@ fun LineaCard(
                         }
                         
                         Spacer(modifier = Modifier.width(12.dp))
-                        
+
+                        Icon(
+                            imageVector = Icons.Default.Train,
+                            contentDescription = "Train",
+                            tint = Color.Gray,
+                            modifier = Modifier.size(14.dp)
+                        )
+
                         Text(
-                            text = "${linea.estaciones.size} Estaciones",
+                            text = " ${linea.estaciones.size} EST.",
                             fontSize = 12.sp,
                             color = Color.Gray
                         )
@@ -469,7 +484,9 @@ fun LineaCard(
                 imageVector = Icons.AutoMirrored.Filled.ArrowForward,
                 contentDescription = "Ver detalles",
                 tint = Color.Gray,
-                modifier = Modifier.size(24.dp)
+                modifier = Modifier
+                    .padding(end = 16.dp)
+                    .size(24.dp)
             )
         }
     }
@@ -483,7 +500,7 @@ fun getLineaAvatarText(nombre: String): String {
             val partes = nombre.removePrefix("linea-").split("-")
             partes.firstOrNull()?.uppercase() ?: ""
         }
-        nombre.startsWith("ml") -> nombre.uppercase()
+        nombre.startsWith("ml") -> nombre.uppercase().drop(1)
         nombre == "ramal" -> "R"
         else -> nombre.take(2).uppercase()
     }
