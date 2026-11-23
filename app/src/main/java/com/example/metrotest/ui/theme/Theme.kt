@@ -9,7 +9,20 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+
+private val PlayKingDarkColorScheme = darkColorScheme(
+    primary = PlayKingPrimary,
+    secondary = PlayKingSecondary,
+    background = PlayKingBackground,
+    surface = PlayKingSurface,
+    onPrimary = Color.White,
+    onSecondary = Color.White,
+    onBackground = Color.White,
+    onSurface = Color.White,
+    tertiary = PlayKingGradientStart
+)
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -46,7 +59,7 @@ fun METROTESTTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-        darkTheme -> DarkColorScheme
+        darkTheme -> PlayKingDarkColorScheme
         else -> LightColorScheme
     }
 
